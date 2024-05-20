@@ -1,9 +1,9 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 resources:
-- dev-namespace1.yaml
-- dev-namespace2.yaml
-- dev-namespace3.yaml
-- prod-namespace1.yaml
-- prod-namespace2.yaml
-- prod-namespace3.yaml
+- finance-dev.yaml
+- finance-prod.yaml
+- marketing-dev.yaml
+- marketing-prod.yaml
+- sales-dev.yaml
+- sales-prod.yaml
